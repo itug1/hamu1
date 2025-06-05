@@ -8,8 +8,8 @@ csvpath = os.getcwd()
 print(csvpath)
 csvpath2 = csvpath+r"/hamu.csv"
 print(csvpath2)
-#csvpath = r'C:\RICOH'
-with open(csvpath2) as file:
+#csvpath2 = r"C:\Python\hamugo\hamu.csv"
+with open(csvpath2, encoding="shift-jis") as file:
     lsts = list(csv.reader(file))
     #print(lsts)
 
